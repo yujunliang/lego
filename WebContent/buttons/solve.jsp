@@ -1,0 +1,1 @@
+<button id="solve" type="submit" accesskey="S"><u>S</u>olve</button>

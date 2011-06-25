@@ -1,9 +1,13 @@
 <div id="div1">
-<jsp:include page="../selects/select1.jsp"></jsp:include>
+<FIELDSET>
+<LEGEND ACCESSKEY="L">Loan</LEGEND>
+<jsp:include page="../selects/country.jsp"></jsp:include>
 <br>
-<jsp:include page="../fields/field1.jsp"></jsp:include>
+<jsp:include page="../fields/amount.jsp"></jsp:include>
 <br>
-<jsp:include page="../fields/field2.jsp"></jsp:include>
+<jsp:include page="../fields/rate.jsp"></jsp:include>
 <br>
-<jsp:include page="../fields/field3.jsp"></jsp:include>
+<jsp:include page="../fields/term.jsp"></jsp:include>
+</FIELDSET>
+<jsp:include page="../buttons/solve.jsp"></jsp:include>
 </div>

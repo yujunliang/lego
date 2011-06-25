@@ -1,0 +1,1 @@
+<LABEL FOR="amount" ACCESSKEY="A">Loan <u>A</u>mount:</LABEL> <input id="amount" name="amount" value="40000"/>

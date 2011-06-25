@@ -6,10 +6,17 @@ var loan = {
 
    display : function() {
 	  $("#loan").hide();
-	  $("#div4").html(this.value.monthPayment);
-	  $("#div5").html(this.value.stampDuty);
-	  $("#div6").html(this.value.firstMonthPayment);
+	  $("#monthPayment").html(this.value.monthPayment);
+	  $("#stampDuty").html(this.value.stampDuty);
+	  $("#firstMonthPayment").html(this.value.firstMonthPayment);
+	  $("#result").show();
+   },
+  
+   init : function() {
+	  $("#result").hide();
+	  $("#loan").show();
   }
 };
 
+loan.init();
 </script>
