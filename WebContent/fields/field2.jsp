@@ -1,0 +1,1 @@
+Interest Rate: <input id="field2" name="rate" value="0.03"/>

@@ -1,0 +1,1 @@
+Loan Amount: <input id="field1" name="amount" value="40000"/>
