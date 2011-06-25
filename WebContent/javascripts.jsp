@@ -15,6 +15,9 @@ var loan = {
    init : function() {
 	  $("#result").hide();
 	  $("#loan").show();
+	  $("#back").click(function(){
+		  loan.init();
+	  });
   }
 };
 
